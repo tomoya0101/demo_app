@@ -1,0 +1,4 @@
+<h1><%= @tweet.title %></h1>
+<p><%= @tweet.content %></p>
+<%= link_to '削除', tweet_path(@tweet.id), method: :delete %><br>
+<%= link_to '戻る', :back %>
